@@ -42,5 +42,29 @@ $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
 
+
+
+
+/*
+| -------------------------------------------------------------------------
+| RESERVED ROUTES
+| -------------------------------------------------------------------------
+ */
+
+$route['sleep'] = "first/zzz";
+$route['lock/(:any)/(:any)'] = "Welcome/shucks";
+$route['show/(:num)'] = 'first/gimme/$1';
+$route['([a-zA-Z]{0,4}+)/bingo'] = 'Bingo';
+$route['(comp*[0-9]+)/(:any)'] = 'Bingo/wise';
+$route['dunno'] = function(){
+    $source = './data/Annoying_Orange.jpg'; //image that I downloaded
+    //set the mime type for that image
+    header("Content-type: image/jpg");
+    header('Conent-Disposition: inline'); 
+    readfile($source); //dish it
+    die(); //and we don't have to go any further
+    
+};
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

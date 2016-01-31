@@ -1,5 +1,10 @@
 Change log order:
 Newest at the top
 
+1/30/2016- 12:25 AM Link fix for #5 (Matthew Hui)
+1/30/2016- 12:15 AM Link fix for #8 (Matthew Hui)
+1/30/2016- 11:55 AM Link fix for #7 (Matthew Hui)
+1/30/2016- 10:52 AM Link fix for #6 (Matthew Hui)
+1/29/2016- 2:26 PM Link fixes for # 1-4 (Justin Chau)
 1/28/2016- 10:48 Setup the repo
 
