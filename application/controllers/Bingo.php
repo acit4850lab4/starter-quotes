@@ -42,5 +42,5 @@ class Bingo extends Application {
 
 }
 
-/* End of file Welcome.php */
+/* End of file Bingo.php */
 /* Location: application/controllers/Welcome.php */
